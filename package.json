@@ -1,15 +1,19 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --tunnel",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "expo": "~41.0.0",
+    "expo-linear-gradient": "^9.1.0",
+    "expo-location": "~12.0.4",
     "expo-status-bar": "~1.0.4",
+    "prop-types": "^15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
